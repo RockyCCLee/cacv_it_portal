@@ -14,13 +14,13 @@ window.PORTAL_LINKS = [
     title: "Hardware Inventory",
     icon: "🖥️",
     description: "Church IT equipment register",
-    url: "#"
+    url: "https://docs.google.com/spreadsheets/d/1nhnJGLytlwe9TT8qyz1946F4ByGLB6Y1RyrpssMGzpI/edit?gid=0#gid=0"
   },
   {
     title: "Password",
     icon: "🔐",
     description: "Restricted - authorised IT staff only",
-    url: "#"
+    url: "https://docs.google.com/spreadsheets/d/1gLjpMN21LRgttcsMHIe_7wcFsHJi6Sl6WLiHgSQ0IFc/edit?gid=0#gid=0"
   },
   {
     title: "Documentation",
@@ -32,9 +32,14 @@ window.PORTAL_LINKS = [
         icon: "🌐",
         children: [
           {
+            title: "CACV IT Network Plan",
+            icon: "🗺️",
+            url: "https://drive.google.com/file/d/1D0pdkwRglf7BSb0GXjODOSNXN0kXwVP2/view?usp=drive_link"
+          },
+          {
             title: "Wireless Bridge Installation Guide",
             icon: "📄",
-            url: "#"
+            url: "https://docs.google.com/document/d/1LuW8umBJoy9ZtVPhop5ZvIiVG82jC6D2/edit?usp=drive_link&ouid=114523866939779335289&rtpof=true&sd=true"
           }
         ]
       }
