@@ -44,5 +44,49 @@ window.PORTAL_LINKS = [
         ]
       }
     ]
+  },
+  {
+    title: "Projects",
+    icon: "🚀",
+    description: "IT systems & ongoing developments",
+    children: [
+      {
+        title: "Room Booking System",
+        icon: "📅",
+        children: [
+          {
+            title: "Requirements & Git Repo",
+            icon: "💻",
+            url: "https://github.com/RockyCCLee/cacv-booking_system"
+          },
+          {
+            title: "Demo",
+            icon: "🔗",
+            url: "https://cacv-bookingsystem-testing.up.railway.app/app.html"
+          }
+        ]
+      },
+      {
+        title: "CACV Website Modernization",
+        icon: "🌐",
+        children: [
+          {
+            title: "Requirements & Git Repo",
+            icon: "💻",
+            url: "https://github.com/RockyCCLee/cacv-webpage"
+          },
+          {
+            title: "Demo",
+            icon: "🔗",
+            url: "https://cacv-webpage.vercel.app/en"
+          }
+        ]
+      },
+      {
+        title: "Repair Reporting System (Not started)",
+        icon: "🛠️",
+        url: "#"
+      }
+    ]
   }
 ];
